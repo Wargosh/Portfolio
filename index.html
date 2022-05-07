@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Portafolio Erick Jara</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Erick Jara</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <!--<li class="nav__item">
+                        <a href="#home" class="nav__link active_link">
+                            <i class="uil uil-home nav__icon"></i> Inicio
+                        </a>
+                    </li>-->
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> Sobre Mi
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-clipboard-notes nav__icon"></i> Habilidades
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#trajectory" class="nav__link">
+                            <i class="uil uil-analysis nav__icon"></i> Trayectoria
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-briefcase-alt nav__icon"></i> Portafolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-envelope-alt nav__icon"></i> Contacto
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+                <!-- Cambiar tema -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/ejjv/" class="home__social-icon" target="_blank">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/Wargosh" class="home__social-icon" target="_blank">
+                            <i class="uil uil-github"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__img">
+                        <!-- <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                <image class="home__blob-img" x="12" y="18" xlink:href="assets/img/perfil.png" />
+                            </g>
+                        </svg> -->
+                        <img class="home__blob" src="assets/img/perfil.png" alt="Foto perfil">
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Hola, soy Erick Jara
+                        </h1>
+                        <h3 class="home__subtitle">
+                            Desarrollador Front/Back/Unity
+                        </h3>
+                        <p class="home__description">
+                            Programador autodidacta y apasionado por el desarrollo de aplicaciones web, videojuegos y la
+                            realidad aumentada. Me desenvuelvo bien en tecnologías backend y me gusta experimentar en mi
+                            tiempo libre mecánicas y/o funcionalidades de otros juegos con la herramienta Unity3D.
+                        </p>
+                        <a href="#contact" class="button button--flex">
+                            Contacto <i class="uil uil-envelope-alt button__icon"></i>
+                        </a>
+
+                        <a download="" href="assets/pdf/Curriculum Vitae.pdf" class="button button--flex">
+                            Descargar CV <i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <!--<section class="about section" id="about">
+            <h2 class="section__title">
+                Sobre mi
+            </h2>
+            <span class="section__subtitle">Mi introducción</span>
+
+            <div class="about__container container grid">
+                <img src="assets/img/about.jpg" alt="" class="about__img">
+
+                <div class="about__data">
+                    <p class="about__description">
+                        Programador autodidacta y apasionado por el desarrollo de aplicaciones web, videojuegos y la
+                        realidad aumentada. Me desenvuelvo bien en tecnologías backend y me gusta experimentar en mi
+                        tiempo libre mecánicas y/o funcionalidades de otros juegos con la herramienta Unity3D.
+                    </p>
+
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title"> +2 </span>
+                            <span class="about__info-name"> Años <br> experiencia </span>
+                        </div>
+                        <div>
+                            <span class="about__info-title"> +5 </span>
+                            <span class="about__info-name"> Proyectos <br> terminados </span>
+                        </div>
+                    </div>
+
+                    <div class="about__buttons">
+                        <a download="" href="assets/pdf/Curriculum Vitae.pdf" class="button button--flex">
+                            Descargar CV<i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        -->
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Habilidades</h2>
+            <span class="section__subtitle">Mis capacidades adquiridas a lo largo de mi carrera profesional</span>
+
+            <div class="skills__container container grid">
+                <div>
+                    <!--========== [INI] SKILLS FRONTEND ==========-->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title"> Front-end </h1>
+
+                                <span class="skills__subtitle">+2 años de experiencia</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <!--========== [INI] SKILL HTML ==========-->
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div>
+                            </div>
+                            <!--========== [FIN] SKILL HTML ==========-->
+                            <!--========== [INI] SKILL CSS ==========-->
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">CSS3</h3>
+                                    <span class="skills__number">65%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__css"></span>
+                                </div>
+                            </div>
+                            <!--========== [FIN] SKILL CSS ==========-->
+                            <!--========== [INI] SKILL JS ==========-->
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__js"></span>
+                                </div>
+                            </div>
+                            <!--========== [FIN] SKILL JS ==========-->
+                            <!--========== [INI] SKILL Angular ==========-->
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Angular</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__angular"></span>
+                                </div>
+                            </div>
+                            <!--========== [FIN] SKILL Angular ==========-->
+                            <!--========== [INI] SKILL ASP.NET ==========-->
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">ASP.NET</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__asp"></span>
+                                </div>
+                            </div>
+                            <!--========== [FIN] SKILL ASP.NET ==========-->
+                        </div>
+                    </div>
+                    <!--========== [FIN] SKILLS FRONTEND ==========-->
+
+                    <!--========== [INI] SKILLS BACKEND ==========-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-server-network-alt skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title"> Back-end </h1>
+
+                                <span class="skills__subtitle">+3 años de experiencia</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <!--========== [INI] SKILL NODEJS ==========-->
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Node.js</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__nodejs"></span>
+                                </div>
+                            </div>
+                            <!--========== [FIN] SKILL NODEJS ==========-->
+                            <!--========== [INI] SKILL C# ==========-->
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">C#</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__csharp"></span>
+                                </div>
+                            </div>
+                            <!--========== [FIN] SKILL C# ==========-->
+                            <!--========== [INI] SKILL Lumen/Laravel ==========-->
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Lumen</h3>
+                                    <span class="skills__number">75%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__lumen"></span>
+                                </div>
+                            </div>
+                            <!--========== [FIN] SKILL Lumen/Laravel ==========-->
+                            <!--========== [INI] SKILL Java ==========-->
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Java</h3>
+                                    <span class="skills__number">65%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__java"></span>
+                                </div>
+                            </div>
+                            <!--========== [FIN] SKILL Java ==========-->
+                            <!--========== [INI] SKILL PHP ==========-->
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">PHP</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__php"></span>
+                                </div>
+                            </div>
+                            <!--========== [FIN] SKILL PHP ==========-->
+                            <!--========== [INI] SKILL SPRING BOOT ==========-->
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Spring Boot</h3>
+                                    <span class="skills__number">55%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__springb"></span>
+                                </div>
+                            </div>
+                            <!--========== [FIN] SKILL SPRING BOOT ==========-->
+                        </div>
+                    </div>
+                    <!--========== [FIN] SKILLS BACKEND ==========-->
+                </div>
+
+                <!--========== [INI] SKILLS OTHERS TECH ==========-->
+                <div>
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-arrow skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title"> Otras tecnologías </h1>
+
+                                <span class="skills__subtitle">+2 Años de experiencia</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <!--========== [INI] SKILL Unity ==========-->
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Unity</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__unity"></span>
+                                </div>
+                            </div>
+                            <!--========== [FIN] SKILL Unity ==========-->
+                            <!--========== [INI] SKILL Socket.io ==========-->
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Socket.io</h3>
+                                    <span class="skills__number">65%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__socketio"></span>
+                                </div>
+                            </div>
+                            <!--========== [FIN] SKILL Socket.io ==========-->
+                            <!--========== [INI] SKILL Firebase ==========-->
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Firebase</h3>
+                                    <span class="skills__number">50%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__firebase"></span>
+                                </div>
+                            </div>
+                            <!--========== [FIN] SKILL Firebase ==========-->
+                            <!--========== [INI] SKILL MySQL ==========-->
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">MySQL</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__mysql"></span>
+                                </div>
+                            </div>
+                            <!--========== [FIN] SKILL MySQL ==========-->
+                            <!--========== [INI] SKILL MongoDB ==========-->
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">MongoDB</h3>
+                                    <span class="skills__number">65%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__mongodb"></span>
+                                </div>
+                            </div>
+                            <!--========== [FIN] SKILL MongoDB ==========-->
+                            <!--========== [INI] SKILL Oracle Forms ==========-->
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Oracle Forms</h3>
+                                    <span class="skills__number">65%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__oforms"></span>
+                                </div>
+                            </div>
+                            <!--========== [FIN] SKILL Oracle Forms ==========-->
+                        </div>
+                    </div>
+                </div>
+                <!--========== [FIN] SKILLS OTHERS TECH ==========-->
+            </div>
+        </section>
+
+        <!--==================== TRAJECTORY ====================-->
+        <section class="trajectory section" id="trajectory">
+            <h2 class="section__title">Trayectoria</h2>
+            <span class="section__subtitle">Mi educación y experiencia adquirida a lo largo de mi vida</span>
+
+            <div class="trajectory__container container">
+                <div class="trajectory__tabs">
+                    <div class="trajectory__button button--flex trajectory__active" data-target='#education'>
+                        <i class="uil uil-graduation-cap trajectory__icon"></i>
+                        Educación
+                    </div>
+
+                    <div class="trajectory__button button--flex" data-target='#work'>
+                        <i class="uil uil-moneybag-alt trajectory__icon"></i>
+                        Trabajo
+                    </div>
+                </div>
+
+                <div class="trajectory__sections">
+                    <!--========== [INI] TRAYECTORIA - EDUCACIÓN ==========-->
+                    <div class="trajectory__content trajectory__active" data-content id="education">
+                        <!-- Educación 1 -->
+                        <div class="trajectory__data">
+                            <div>
+                                <h3 class="trajectory__title">Bachillerato en Informática</h3>
+                                <span class="trajectory__subtitle">Colegio De Bachillerato"Demetrio Aguilera
+                                    Malta"</span>
+                                <div class="trajectory__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2006 - 2012
+                                </div>
+                            </div>
+                            <div>
+                                <span class="trajectory__rounder"></span>
+                                <span class="trajectory__line"></span>
+                            </div>
+                        </div>
+
+                        <!-- Educación 2 -->
+                        <div class="trajectory__data">
+                            <div></div>
+
+                            <div>
+                                <span class="trajectory__rounder"></span>
+                                <span class="trajectory__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="trajectory__title">Tecnólogo en Análisis de Sistemas</h3>
+                                <span class="trajectory__subtitle">Instituto Superior Tecnológico José Ochoa León</span>
+                                <div class="trajectory__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2012 - 2015
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Educación 3 -->
+                        <div class="trajectory__data">
+                            <div>
+                                <h3 class="trajectory__title">Egresado de Ingeniería en Sistemas</h3>
+                                <span class="trajectory__subtitle">Universidad Nacional de Loja</span>
+                                <div class="trajectory__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2016 - 2022
+                                </div>
+                            </div>
+                            <div>
+                                <span class="trajectory__rounder"></span>
+                                <!-- <span class="trajectory__line"></span> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!--========== [FIN] TRAYECTORIA - EDUCACIÓN ==========-->
+
+                    <!--========== [INI] TRAYECTORIA - TRABAJO ==========-->
+                    <div class="trajectory__content" data-content id="work">
+                        <!-- Trabajo 1 -->
+                        <div class="trajectory__data">
+                            <div>
+                                <h3 class="trajectory__title">Pasante Desarrollador de software .NET</h3>
+                                <span class="trajectory__subtitle">Grupo Bernier SAS - Colombia (Remoto)</span>
+                                <div class="trajectory__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2020
+                                </div>
+                            </div>
+                            <div>
+                                <span class="trajectory__rounder"></span>
+                                <span class="trajectory__line"></span>
+                            </div>
+                        </div>
+
+                        <!-- Trabajo 2 -->
+                        <div class="trajectory__data">
+                            <div></div>
+
+                            <div>
+                                <span class="trajectory__rounder"></span>
+                                <span class="trajectory__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="trajectory__title">Desarrollador de software</h3>
+                                <span class="trajectory__subtitle">SmartDev Cia. Ltda - Ecuador (Remoto)</span>
+                                <div class="trajectory__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2021 - 2022
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Trabajo 3 -->
+                        <!-- <div class="trajectory__data">
+                            <div>
+                                <h3 class="trajectory__title">Egresado de Ingeniería en Sistemas</h3>
+                                <span class="trajectory__subtitle">Universidad Nacional de Loja</span>
+                                <div class="trajectory__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2016 - 2022
+                                </div>
+                            </div>
+                            <div>
+                                <span class="trajectory__rounder"></span>
+                                 <span class="trajectory__line"></span>
+                            </div>
+                        </div> -->
+                    </div>
+                    <!--========== [FIN] TRAYECTORIA - TRABAJO ==========-->
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portafolio</h2>
+            <span class="section__subtitle">Proyectos más recientes</span>
+
+            <div class="portfolio__container container swiper">
+                <div class="swiper-wrapper">
+                    <!-- PROYECTO 1 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio1.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <!-- SKILLS -->
+                            <span class="portfolio__skill">Unity</span>
+                            <span class="portfolio__skill">C#</span>
+                            <span class="portfolio__skill">Shaders</span>
+
+                            <!-- DATA -->
+                            <h3 class="portfolio__title">Minijuego: Rogue Clicker</h3>
+                            <p class="portfolio__description">
+                                Un juego 2D de tipo clicker creado en Unity para dispositivos móviles
+                                Android, iniciado a partir del #desafioholamundo el cual consistia en crear
+                                una o varias de 7 propuestas a aplicaciones.
+                            </p>
+                            <a href="https://github.com/DevTic/RogueClicker_project" target="_blank"
+                                class="button button--flex button--small portfolio__button">
+                                <i class="uil uil-github btn__icon"></i>
+                                &nbsp;Código
+                                <i class="uil uil-arrow-circle-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- PROYECTO 2 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio2.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <!-- SKILLS -->
+                            <span class="portfolio__skill">HTML</span>
+                            <span class="portfolio__skill">CSS</span>
+                            <span class="portfolio__skill">JavaScript</span>
+
+                            <!-- DATA -->
+                            <h3 class="portfolio__title">Web: Portafolio personal</h3>
+                            <p class="portfolio__description">
+                                Sitio web para presentación de proyectos personales,
+                                responsivo y adaptable para cualquier dispositivo y que incluye el cambio de tema
+                                claro/oscuro.
+                            </p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                <i class="uil uil-globe btn__icon"></i>
+                                &nbsp;Demo
+                                <i class="uil uil-arrow-circle-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- PROYECTO 3 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio3.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <!-- SKILLS -->
+                            <span class="portfolio__skill">Unity</span>
+                            <span class="portfolio__skill">C#</span>
+                            <span class="portfolio__skill">Nodejs</span>
+                            <span class="portfolio__skill">Socket.io</span>
+
+                            <!-- DATA -->
+                            <h3 class="portfolio__title">Minijuego: Simple Tanks Multiplayer</h3>
+                            <p class="portfolio__description">
+                                Juego de tanques realizado en Unity para la plataforma Android
+                                donde se integraron conocimientos de diseño de juegos y servicios de backend para
+                                la comunicación y sincronizacion de jugadores simultaneos en una misma partida
+                                (multijugador).
+                            </p>
+                            <a download="" href="assets/files/tanks_multiplayer.apk"
+                                class="button button--flex button--small portfolio__button">
+                                <i class="uil uil-android btn__icon"></i>
+                                &nbsp; Descargar apk
+                                <i class="uil uil-download-alt btn__icon-down"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Información de contacto</h2>
+            <span class="section__subtitle">Si necesitas ayuda o asesoramiento en el desarrollo web o de minijuegos no
+                dudes en contactarme.</span>
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone-alt contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Telf.</h3>
+                            <span class="contact__subtitle">(+593) 967 720 611</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope-alt contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Correo</h3>
+                            <span class="contact__subtitle">erick_joel1702@hotmail.com</span>
+                        </div>
+                    </div>
+                </div>
+                <!--  
+                <form action="" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Nombres</label>
+                            <input type="text" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Email</label>
+                            <input type="email" class="contact__input">
+                        </div>
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Asunto</label>
+                        <input type="text" class="contact__input">
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Mensaje</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                    </div>
+
+                    <div>
+                        <a href="#" class="button button--flex">
+                            Enviar mensaje
+                            <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </form>
+                -->
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__tltle">Erick Jara</h1>
+                    <span class="footer__subtitle">Desarrollador Front/Back/Unity</span>
+                </div>
+
+                <ul class="footer__links">
+                    <!--
+                    <li>
+                        <a href="#about" class="footer__link">Sobre Mi</a>
+                    </li>
+                    -->
+                    <li>
+                        <a href="#skills" class="footer__link">Habilidades</a>
+                    </li>
+                    <li>
+                        <a href="#trajectory" class="footer__link">Trayectoria</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portafolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contacto</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://twitter.com/Wargosh3" target="_blank" class="footer__social">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ejjv/" target="_blank" class="footer__social">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">2022 &#169; Erick Jara</p>
+        </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
