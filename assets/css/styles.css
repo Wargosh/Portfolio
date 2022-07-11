@@ -463,13 +463,19 @@ img {
   font-weight: var(--font-medium);
 }
 
+.skills__exp {
+  font-size: var(--smaller-font-size);
+  font-weight: var(--font-medium);
+}
+
 .skills__bar,
 .skills__percentage {
-  height: 5px;
-  border-radius: 0.25rem;
+  height: 2.5px;
+  border-radius: 0.2rem;
 }
 
 .skills__bar {
+  height: 3px;
   background-color: var(--first-color-lighter);
 }
 
@@ -478,72 +484,21 @@ img {
   background-color: var(--first-color);
 }
 
-.skills__html {
-  width: 90%;
+/* Level skills */
+.skills__basic {
+  width: 30%;
 }
 
-.skills__css {
-  width: 65%;
-}
-
-.skills__js {
-  width: 80%;
-}
-
-.skills__angular {
-  width: 70%;
-}
-
-.skills__asp {
-  width: 80%;
-}
-
-.skills__nodejs {
-  width: 80%;
-}
-
-.skills__csharp {
-  width: 90%;
-}
-
-.skills__lumen {
-  width: 75%;
-}
-
-.skills__java {
-  width: 65%;
-}
-
-.skills__php {
-  width: 70%;
-}
-
-.skills__springb{
+.skills__intermediate {
   width: 55%;
 }
 
-.skills__unity {
-  width: 80%;
+.skills__advanced {
+  width: 75%;
 }
 
-.skills__socketio {
-  width: 65%;
-}
-
-.skills__firebase {
-  width: 50%;
-}
-
-.skills__mysql {
-  width: 70%;
-}
-
-.skills__mongodb {
-  width: 65%;
-}
-
-.skills__oforms {
-  width: 65%;
+.skills__expert {
+  width: 90%;
 }
 
 .skills__close .skills__list {
